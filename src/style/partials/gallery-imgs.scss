@@ -1,0 +1,48 @@
+.hot_deals {
+		@include bg-image('hot_deals.jpg');		
+}
+.new_products1 {
+	@include bg-image('new_products1.jpg');		
+}
+.new_products2 {
+	@include bg-image('new_products2.jpg');		
+}
+.new_products3 {
+	@include bg-image('new_products3.jpg');		
+}
+.new_products4 {
+	@include bg-image('new_products4.jpg');		
+}
+.latest_products1 {
+	@include bg-image('latest_products1.jpg');		
+}
+.latest_products2 {
+	@include bg-image('latest_products2.jpg');		
+}
+.latest_products3 {
+	@include bg-image('latest_products3.jpg');		
+}
+.latest_products4 {
+	@include bg-image('latest_products4.jpg');		
+}
+.special_deals4 {
+	@include bg-image('special_deals4.jpg');		
+}
+.featured_products2 {
+	@include bg-image('featured_products2.jpg');		
+}
+.featured_products3 {
+	@include bg-image('featured_products3.jpg');		
+}
+.featured_products4 {
+	@include bg-image('featured_products4.jpg');		
+}
+.featured_products5 {
+	@include bg-image('featured_products5.jpg');		
+}
+.featured_products6 {
+	@include bg-image('featured_products6.jpg');		
+}
+.sprite-partners {
+	@include bg-image('sprite-partners.png', initial, -50px center);
+}

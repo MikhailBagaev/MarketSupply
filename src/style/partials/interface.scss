@@ -1,0 +1,26 @@
+[class^="control-"] {
+	display: inline-block;
+	position: relative;
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	background-color: $accent;
+	margin-bottom: -2px;
+	float: right;
+	margin-left: 5px; 
+	i {
+		color: #fff;
+		margin-top: 47%;
+		margin-left: 42%;
+		transform: translate(-50%, -50%);
+	}  
+	&:active {
+		background-color: #cacaca;
+	}	
+}
+[class$="-next"] {
+    i {
+    	margin-left: 54%;
+    }
+}
+

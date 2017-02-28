@@ -1,0 +1,15 @@
+[class^="jcarousel"] {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;    
+}
+[class^="jcarousel"] ul {
+    width: 20000em;
+    position: relative;    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+[class^="jcarousel"] li {    
+    float: left;
+}

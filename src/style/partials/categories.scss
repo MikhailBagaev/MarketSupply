@@ -1,0 +1,30 @@
+.stn-categories {
+    background-color: $accent;
+    padding: 18px 0 18px 20px;
+    overflow: hidden;
+    color: #fff;
+	text-transform: uppercase;
+    p {
+    	float: left; 
+    	i {
+    		padding-right: 15px;
+    	}   	
+    }
+    .categories-list {
+    	float: right;
+    	li {
+    		display: inline-block;
+    		padding: 0 25px;
+    		&:last-child {
+    			padding-right: 0;
+    		}
+    		a {
+    			color: inherit;
+    			display: block;    			
+    			&:hover {
+    				text-decoration: underline;
+    			}
+    		}
+    	}
+    }
+}
